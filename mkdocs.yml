@@ -50,7 +50,7 @@ plugins:
           execute: false
           allow_errors: false
           ignore: ["conf.py"]
-          execute_ignore: ["well.ipynb", "Oil and Gas Well Permits.csv", "Oil&Gas.csv"]
+          execute_ignore: ["well.ipynb", "Oil and Gas Well Permits.csv", "Oil&Gas.csv", "folium.ipynb"]
           
 markdown_extensions:
     - admonition
@@ -82,6 +82,7 @@ nav:
     - Examples:
         - examples/intro.ipynb
         - examples/well.ipynb
+        - examples/folium.ipynb
     - API Reference:
           - wellwiz module: wellwiz.md
           - common module: common.md

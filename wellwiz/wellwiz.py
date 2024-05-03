@@ -5,6 +5,7 @@ import pandas as pd
 import ipywidgets as widgets
 import numpy as np
 
+
 class MapWithCSV(Map):
     def __init__(self, **kwargs):
         """
@@ -122,6 +123,7 @@ class MapWithCSV(Map):
             print("Watch out, Bro!")
         else:
             print("Take a chill pill.")
+        
 
 
 

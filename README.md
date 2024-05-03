@@ -18,7 +18,7 @@
 
 -   To visualize the oil and gas wells in Knoxville, TN.
 -   To know their names and purpose.
--   To know the risk fracking exposure.
+-   To identify the risk of fracking exposure.
 
 
 ## Demo code

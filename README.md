@@ -10,8 +10,22 @@
 
 -   Free software: MIT License
 -   Documentation: https://OmiimO05.github.io/wellwiz
+
+![](https://i.gifer.com/GG4X.gif)
     
 
 ## Features
 
--   TODO
+-   To visualize the oil and gas wells in Knoxville, TN.
+-   To know their names and purpose.
+-   To know the risk fracking exposure.
+
+
+## Demo code
+For the demonstration you can visit- 
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OmIImO05/netpanda/blob/main/docs/examples/example_code.ipynb)
+
+or you can also watch this video. 
+
+
+Thank you for interest!

@@ -13,4 +13,6 @@
 
 ## Features
 
--   TODO
+-   To visualize the oil and gas wells in Knoxville, TN.
+-   To know their names and purpose.
+-   To identify the risk of fracking exposure.

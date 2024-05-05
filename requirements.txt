@@ -8,3 +8,10 @@ localtileserver
 pylance
 panel
 geopy
+rasterio
+scipy
+shapely
+pyproj
+SQLAlchemy
+bokeh
+poetry

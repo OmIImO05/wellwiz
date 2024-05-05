@@ -47,10 +47,10 @@ plugins:
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
-          execute: false
+          execute: True
           allow_errors: false
           ignore: ["conf.py"]
-          execute_ignore: ["well.ipynb", "Oil and Gas Well Permits.csv", "Oil&Gas.csv", "folium.ipynb"]
+          execute_ignore: ["Oil and Gas Well Permits.csv", "Oil&Gas.csv", "folium.ipynb"]
           
 markdown_extensions:
     - admonition

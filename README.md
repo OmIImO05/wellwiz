@@ -23,7 +23,7 @@
 
 ## Demo code
 For the demonstration you can visit- 
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OmIImO05/netpanda/blob/main/docs/examples/example_code.ipynb)
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OmIImO05/wellwiz/blob/main/docs/examples/well.ipynb)
 
 or you can also watch this video. 
 

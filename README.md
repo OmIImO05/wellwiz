@@ -14,7 +14,7 @@
 ![](https://i.gifer.com/GG4X.gif)
     
 
-## Features
+## Key Features
 
 -   To visualize the oil and gas wells in Knoxville, TN.
 -   To know their names and purpose.
@@ -28,4 +28,4 @@ For the demonstration you can visit-
 or you can also watch this video. 
 
 
-Thank you for interest!
+Thank you for your interest!

@@ -32,7 +32,7 @@ class MapWithCSV(Map):
         self.add_control(WidgetControl(widget=self.latlon_display, position='topright'))
 
         # Preload CSV data from a URL
-        self.default_csv_url = "https://raw.githubusercontent.com/OmIImO05/wellwiz/main/csv/Oil%20and%20Gas%20Well%20Permits.csvv"
+        self.default_csv_url = "https://raw.githubusercontent.com/OmIImO05/wellwiz/main/csv/Oil%20and%20Gas%20Well%20Permits.csv"
         self.csv_data = self.load_csv_data(self.default_csv_url)
         self.markers = {}
         self.configure_ui()
@@ -86,7 +86,7 @@ class MapWithCSV(Map):
             print(f"Well Name and Number: {data['Well Name and Number']}")
             print(f"Purpose af Well: {data['Purpose af Well']}")
 
-            
+
     def add_latlong_widget(self):
         """
         Sets up an output widget and interaction handler for displaying lat/lon on map clicks.

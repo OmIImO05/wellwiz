@@ -12,7 +12,7 @@
 
 ## Logo
 
-![alt text](docs/wellwiz_logo.gif)
+![](wellwiz_logo.gif)
     
 ## Aim of this Project
 
@@ -31,4 +31,4 @@ For easy access launch this notebook from your browser and run it.
 
 ## Demo
 
-![alt text](docs/wellwiz.gif)
+![](wellwiz.gif)

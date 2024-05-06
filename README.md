@@ -15,7 +15,6 @@
 ## Logo
 
 ![alt text](docs/wellwiz_logo.gif)
-[![logo](https://raw.githubusercontent.com/opengeos/leafmap/master/docs/assets/logo_rect.png)](https://github.com/opengeos/leafmap/blob/master/docs/assets/logo.png)
 
 
 ## Key Features

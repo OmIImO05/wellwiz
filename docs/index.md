@@ -26,4 +26,4 @@ For easy access launch this notebook from your browser and run it.
 -   To identify the risk of fracking exposure from your location to a nearby gas and oil well.
 
 ## Demo
-![](C:\Users\Shabiha\wellwiz\docs\wellwiz.gif)
+![](https://github.com/OmIImO05/wellwiz/blob/main/docs/wellwiz.gif?raw=true)

@@ -27,4 +27,4 @@ For easy access launch this notebook from your browser and run it.
 
 ## Demo
 
-![](docs/wellwiz.gif)
+![alt text](docs/wellwiz.gif)

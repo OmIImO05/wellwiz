@@ -11,8 +11,11 @@
 -   Free software: MIT License
 -   Documentation: https://OmiimO05.github.io/wellwiz
 
-![](https://i.gifer.com/GG4X.gif)
     
+## Logo
+
+![alt text](docs/wellwiz_logo.gif)
+
 
 ## Key Features
 
@@ -27,5 +30,7 @@ For the demonstration you can visit-
 
 or you can also watch this video. 
 
+![alt text](docs/wellwiz.gif)
 
-Thank you for your interest!
+
+Thank you for your interest in wellwiz!

@@ -1,10 +1,9 @@
 import folium
 from ipyleaflet import basemaps
 
-
 class Map(folium.Map):
 
-    def __init__(self, center=[20, 0], zoom=2, **kwargs):
+    def __init__(self, center=[35.8, -86.0], zoom=7, **kwargs):
         super().__init__(location=center, zoom_start=zoom, **kwargs)
 
     def add_raster(self, data, name="raster", **kwargs):
@@ -23,6 +22,10 @@ class Map(folium.Map):
         client = TileClient(data)
         layer = get_folium_tile_layer(client, name=name, **kwargs)
         layer.add_to(self)
+
+        client = TileClient(data)
+        layer = get_leaflet_tile_layer(client, name=name, **kwargs)
+        self.add(layer)
 
     def add_tile_layer(self, url, name, attribution="Custom Tile", **kwargs):
         """
@@ -86,7 +89,7 @@ class Map(folium.Map):
         """
 
         folium.LayerControl().add_to(self)
-        
+
 
     def add_geojson(self, data, name="geojson", **kwargs):
         """Adds a GeoJSON layer to the map.
@@ -144,3 +147,4 @@ class Map(folium.Map):
         """
         layer = ipyleaflet.ImageOverlay(url=url, bounds=bounds, name=name, **kwargs)
         self.add(layer)
+    

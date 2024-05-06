@@ -86,3 +86,61 @@ class Map(folium.Map):
         """
 
         folium.LayerControl().add_to(self)
+        
+
+    def add_geojson(self, data, name="geojson", **kwargs):
+        """Adds a GeoJSON layer to the map.
+
+        Args:
+            data (str | dict): The GeoJSON data as a string or a dictionary.
+            name (str, optional): The name of the layer. Defaults to "geojson".
+        """
+        import json
+
+        if isinstance(data, str):
+            with open(data) as f:
+                data = json.load(f)
+
+        if "style" not in kwargs:
+            kwargs["style"] = {"color": "blue", "weight": 1, "fillOpacity": 0}
+
+        if "hover_style" not in kwargs:
+            kwargs["hover_style"] = {"fillColor": "#ff0000", "fillOpacity": 0.5}
+
+        layer = ipyleaflet.GeoJSON(data=data, name=name, **kwargs)
+        self.add(layer)
+
+    def add_shp(self, data, name="shp", **kwargs):
+        """
+        Adds a shapefile to the current map.
+
+        Args:
+            data (str or dict): The path to the shapefile as a string, or a dictionary representing the shapefile.
+            name (str, optional): The name of the layer. Defaults to "shp".
+            **kwargs: Arbitrary keyword arguments.
+
+        Raises:
+            TypeError: If the data is neither a string nor a dictionary representing a shapefile.
+
+        Returns:
+            None
+        """
+        import shapefile
+        import json
+
+        if isinstance(data, str):
+            with shapefile.Reader(data) as shp:
+                data = shp.__geo_interface__
+
+        self.add_geojson(data, name, **kwargs)
+
+    def add_image(self, url, bounds, name="image", **kwargs):
+        """Adds an image overlay to the map.
+
+        Args:
+            url (str): The URL of the image.
+            bounds (list): The bounds of the image.
+            name (str, optional): The name of the layer. Defaults to "image".
+        """
+        layer = ipyleaflet.ImageOverlay(url=url, bounds=bounds, name=name, **kwargs)
+        self.add(layer)

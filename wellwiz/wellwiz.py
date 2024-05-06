@@ -113,10 +113,17 @@ class MapWithCSV(Map):
         Parameters:
             latlon (tuple): Latitude and Longitude as a tuple.
         """
+        if not hasattr(self, 'output_widget'):
+            self.output_widget = widgets.Output()
+
+        self.output_widget.clear_output()  # Clear previous widgets and outputs
+
         button = widgets.Button(description="Calculate your risk ...")
         button.on_click(lambda b: self.evaluate_risk(latlon[0], latlon[1]))
+    
         with self.output_widget:
             display(button)
+            
 
     def evaluate_risk(self, lat, lon):
         """

@@ -9,6 +9,10 @@
 
 -   Free software: MIT License
 -   Documentation: <https://OmiimO05.github.io/wellwiz>
+
+## Logo
+
+![alt text](docs/wellwiz_logo.gif)
     
 ## Aim of this Project
 
